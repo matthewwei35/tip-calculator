@@ -9,4 +9,21 @@
 
 .FlexChild:first-child {
   margin-right: 100px;
-} 
+}
+
+.Calculations > p {
+  text-decoration: underline;
+}
+
+.Inputs label > p {
+  font-weight: bold;
+  color: #708090;;
+}
+
+input {
+  font-size: 2em;
+}
+
+h1 {
+  padding-bottom: 0.75em;
+}

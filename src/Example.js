@@ -39,7 +39,7 @@ class Example extends Component {
             <fieldset>
               <p>
                 <label>
-                  <p>Bill:</p>
+                  <p>Bill</p>
                   <input
                     value={this.state.bill}
                     type="number"
@@ -50,7 +50,7 @@ class Example extends Component {
 
               <p>
                 <label>
-                  <p>Tip:</p>
+                  <p>Tip %</p>
                   <input
                     value={this.state.tip}
                     type="number"
@@ -61,7 +61,7 @@ class Example extends Component {
 
               <p>
                 <label>
-                  <p>Split:</p>
+                  <p># of People</p>
                   <input
                     value={this.state.split}
                     type="number"
