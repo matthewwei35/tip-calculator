@@ -19,22 +19,24 @@ class Example extends Component {
     const totalPerPerson = totalAmount / this.state.split;
 
     return (
+      
       <div className="FlexContainer">
         <div className="FlexChild Calculations">
           <p>Tip Amount</p>
-          <h1>${tipAmount.toFixed(2)}</h1>
+          <h2>${tipAmount.toFixed(2)}</h2>
 
           <p>Tip Per Person</p>
-          <h1>${tipPerPerson.toFixed(2)}</h1>
+          <h2>${tipPerPerson.toFixed(2)}</h2>
 
           <p>Total</p>
-          <h1>${totalAmount.toFixed(2)}</h1>
+          <h2>${totalAmount.toFixed(2)}</h2>
 
           <p>Total Per Person</p>
-          <h1>${totalPerPerson.toFixed(2)}</h1>
+          <h2>${totalPerPerson.toFixed(2)}</h2>
         </div>
       
         <div className="FlexChild Inputs">
+          <h1>TIP CALCULATOR</h1>
           <form>
             <fieldset>
               <p>

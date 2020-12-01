@@ -11,6 +11,10 @@
   margin-right: 100px;
 }
 
+.Calculations > h2 {
+  font-size: 2em;
+}
+
 .Calculations > p {
   text-decoration: underline;
 }
@@ -24,6 +28,6 @@ input {
   font-size: 2em;
 }
 
-h1 {
+h2 {
   padding-bottom: 0.75em;
 }
