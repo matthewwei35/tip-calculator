@@ -1,7 +1,7 @@
 import react, { Component } from 'react'
-import './Example.css';
+import './TipCalc.css';
 
-class Example extends Component {
+class TipCalc extends Component {
   constructor(props) {
     super(props)
 
@@ -79,4 +79,4 @@ class Example extends Component {
   }
 }
 
-export default Example
+export default TipCalc
