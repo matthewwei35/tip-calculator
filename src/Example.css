@@ -1,0 +1,12 @@
+.FlexContainer {
+  display: flex;
+}
+
+.FlexChild {
+  flex: 1;
+  margin: 1em;
+}
+
+.FlexChild:first-child {
+  margin-right: 100px;
+} 

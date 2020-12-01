@@ -1,4 +1,5 @@
 import react, { Component } from 'react'
+import './Example.css';
 
 class Example extends Component {
   constructor(props) {
@@ -18,45 +19,59 @@ class Example extends Component {
     const totalPerPerson = totalAmount / this.state.split;
 
     return (
-      <div>
-        <h1>Tip Amount</h1>
-        <h2>${tipAmount.toFixed(2)}</h2>
+      <div className="FlexContainer">
+        <div className="FlexChild Calculations">
+          <p>Tip Amount</p>
+          <h1>${tipAmount.toFixed(2)}</h1>
 
-        <h1>Tip Per Person</h1>
-        <h2>${tipPerPerson.toFixed(2)}</h2>
+          <p>Tip Per Person</p>
+          <h1>${tipPerPerson.toFixed(2)}</h1>
 
-        <h1>Total</h1>
-        <h2>{tipAmount} + {this.state.bill} = ${totalAmount.toFixed(2)}</h2>
+          <p>Total</p>
+          <h1>${totalAmount.toFixed(2)}</h1>
 
-        <h1>Total Per Person</h1>
-        <h2>${totalPerPerson.toFixed(2)}</h2>
+          <p>Total Per Person</p>
+          <h1>${totalPerPerson.toFixed(2)}</h1>
+        </div>
       
-        <label>
-          Bill
-          <input
-            value={this.state.bill}
-            type="number"
-            onChange={ (e) => { this.setState( { bill: e.target.value } ) } }
-          />
-        </label>
+        <div className="FlexChild Inputs">
+          <form>
+            <fieldset>
+              <p>
+                <label>
+                  <p>Bill:</p>
+                  <input
+                    value={this.state.bill}
+                    type="number"
+                    onChange={ (e) => { this.setState( { bill: parseFloat(e.target.value) } ) } }
+                  />
+                </label>
+              </p>
 
-        <label>
-          Tip
-          <input
-            value={this.state.tip}
-            type="number"
-            onChange={ (e) => { this.setState( { tip: e.target.value } ) } }
-          />
-        </label>
+              <p>
+                <label>
+                  <p>Tip:</p>
+                  <input
+                    value={this.state.tip}
+                    type="number"
+                    onChange={ (e) => { this.setState( { tip: parseFloat(e.target.value) } ) } }
+                  />
+                </label>
+              </p>
 
-        <label>
-          Split
-          <input
-            value={this.state.split}
-            type="number"
-            onChange={ (e) => { this.setState( { split: e.target.value } ) } }
-          />
-        </label>
+              <p>
+                <label>
+                  <p>Split:</p>
+                  <input
+                    value={this.state.split}
+                    type="number"
+                    onChange={ (e) => { this.setState( { split: parseInt(e.target.value) } ) } }
+                  />
+                </label>
+              </p>
+            </fieldset>
+          </form>
+        </div>
       </div>
     )
   }
