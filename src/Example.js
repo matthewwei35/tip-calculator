@@ -22,14 +22,14 @@ class Example extends Component {
       
       <div className="FlexContainer">
         <div className="FlexChild Calculations">
-          <p>Tip Amount</p>
+          <p>Tip</p>
           <h2>${tipAmount.toFixed(2)}</h2>
-
-          <p>Tip Per Person</p>
-          <h2>${tipPerPerson.toFixed(2)}</h2>
 
           <p>Total</p>
           <h2>${totalAmount.toFixed(2)}</h2>
+
+          <p>Tip Per Person</p>
+          <h2>${tipPerPerson.toFixed(2)}</h2>
 
           <p>Total Per Person</p>
           <h2>${totalPerPerson.toFixed(2)}</h2>
