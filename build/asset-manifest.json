@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/FEW-1.2_MW_Tip_Calculator/static/css/main.c80be17e.chunk.css",
-    "main.js": "/FEW-1.2_MW_Tip_Calculator/static/js/main.a116b07e.chunk.js",
-    "main.js.map": "/FEW-1.2_MW_Tip_Calculator/static/js/main.a116b07e.chunk.js.map",
-    "runtime-main.js": "/FEW-1.2_MW_Tip_Calculator/static/js/runtime-main.bef063d3.js",
-    "runtime-main.js.map": "/FEW-1.2_MW_Tip_Calculator/static/js/runtime-main.bef063d3.js.map",
-    "static/js/2.91911292.chunk.js": "/FEW-1.2_MW_Tip_Calculator/static/js/2.91911292.chunk.js",
-    "static/js/2.91911292.chunk.js.map": "/FEW-1.2_MW_Tip_Calculator/static/js/2.91911292.chunk.js.map",
-    "static/js/3.b8455e37.chunk.js": "/FEW-1.2_MW_Tip_Calculator/static/js/3.b8455e37.chunk.js",
-    "static/js/3.b8455e37.chunk.js.map": "/FEW-1.2_MW_Tip_Calculator/static/js/3.b8455e37.chunk.js.map",
-    "index.html": "/FEW-1.2_MW_Tip_Calculator/index.html",
-    "static/css/main.c80be17e.chunk.css.map": "/FEW-1.2_MW_Tip_Calculator/static/css/main.c80be17e.chunk.css.map",
-    "static/js/2.91911292.chunk.js.LICENSE.txt": "/FEW-1.2_MW_Tip_Calculator/static/js/2.91911292.chunk.js.LICENSE.txt"
+    "main.css": "/tip-calculator/static/css/main.c80be17e.chunk.css",
+    "main.js": "/tip-calculator/static/js/main.a116b07e.chunk.js",
+    "main.js.map": "/tip-calculator/static/js/main.a116b07e.chunk.js.map",
+    "runtime-main.js": "/tip-calculator/static/js/runtime-main.a938978a.js",
+    "runtime-main.js.map": "/tip-calculator/static/js/runtime-main.a938978a.js.map",
+    "static/js/2.91911292.chunk.js": "/tip-calculator/static/js/2.91911292.chunk.js",
+    "static/js/2.91911292.chunk.js.map": "/tip-calculator/static/js/2.91911292.chunk.js.map",
+    "static/js/3.b8455e37.chunk.js": "/tip-calculator/static/js/3.b8455e37.chunk.js",
+    "static/js/3.b8455e37.chunk.js.map": "/tip-calculator/static/js/3.b8455e37.chunk.js.map",
+    "index.html": "/tip-calculator/index.html",
+    "static/css/main.c80be17e.chunk.css.map": "/tip-calculator/static/css/main.c80be17e.chunk.css.map",
+    "static/js/2.91911292.chunk.js.LICENSE.txt": "/tip-calculator/static/js/2.91911292.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bef063d3.js",
+    "static/js/runtime-main.a938978a.js",
     "static/js/2.91911292.chunk.js",
     "static/css/main.c80be17e.chunk.css",
     "static/js/main.a116b07e.chunk.js"
