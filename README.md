@@ -1,7 +1,7 @@
 # Tip Calculator
 
 ## Description
-A simple tip calculator using React and CSS. This project is based off the one Google provides when you search up tip calculator.
+This project is based off the one Google provides when you search up tip calculator. This was a simpler project but it was a good intro to React.
 ![](screenshots/tip-calc.png)
 
 #### WORK IN PROGRESS
